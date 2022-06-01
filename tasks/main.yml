@@ -4,6 +4,7 @@
     name: nut-client
     state: present
     update_cache: yes
+  when: install_nut
 
 - name: edit /etc/nut/upsmon.conf
   ansible.builtin.blockinfile:

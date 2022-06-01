@@ -11,6 +11,7 @@ You will need to have nut-server installed and set up somewhere already.
 Role Variables
 --------------
 
+- install_nut # defaults to true
 - nut_server_group
 - nut_server
 - nut_user
